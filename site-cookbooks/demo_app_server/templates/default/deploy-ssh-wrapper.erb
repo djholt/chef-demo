@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#
+# Deploy SSH Wrapper
+# App: <%= @app_name %>
+#
+# Rendered by Chef - local changes will be replaced
+
+/usr/bin/env ssh -o "StrictHostKeyChecking=no" -i "<%= @key_path %>" $1 $2

@@ -1,0 +1,7 @@
+.rake_test_cache
+
+# Ignore bundler config
+/.bundle
+
+# Ignore installed gems
+/vendor/ruby

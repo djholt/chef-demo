@@ -1,0 +1,17 @@
+{
+  "id": "quoter",
+  "common": {
+    "app_domain": "holt.dj",
+    "repository": "git@github.com:djholt/quoter.git",
+    "deploy_key": "-----BEGIN RSA PRIVATE KEY-----\nMIIEpQIBAAKCAQEAqoX5KC3wENNusNHmm7Aj+IuMG63+BoWcQlMFwPNbX+49Dl3G\ndRlFEe4ZqhkR/rJcWss0zRpS4PGyeV5nGrLJMY4exJHBUerKacNQ7aM2LqiuuGnP\nKbSXm9m2SsVXL7RnJLHVPQCg1C093HP3AZhU68V585e2Rc4CZTl4+za6frX2HxVE\nWkHZJgUznSLZWI+iKwW3lRkW3VhjUQLXMAGZkEZlh3fq5l4pWAYkIYIBQ4Qoqhi+\n9//UccC6S500N7JbdcKN0VTDsRxuLXTtq4BjRlsRlmUYzoCUGUTTt72tnblIG3Qu\nc+q/a5L+D6hbYg681xF3JWiXIP6yDcQvOk5v6wIDAQABAoIBAB7JQUp3wLfI9FsI\nClJhYp0k1I7Kwun6hVOUGZ3UUdLn+C330DSj80xhaFDFZfJN0U6zET1WW1AxUr+G\nw6aWUKyZtARZLEXV1eVyVdIRfV6/JYw1zikBab3BeJ/XMP5z24tMb+srid3ErT53\n0UiAcBSA+pt38Hh50QTlc2onX1Qwyi2zqwYH3F+7KwjJAR/NdftUiXniWtTY/G1j\nmhLQFXUGOom5yOqj1CD0ueRscK5dZ1Bq3ohNApQfNO9fayESdJiZUDLhcFwXGVSJ\n+PAGm16dLL1zoKjtlRrGmn/piN+c8McFSs3TYL0En5hkh/7qte2RrMGrESu8JpMx\n3eqpDwECgYEA4WHsRJeZpdKAWActEoU9tx8UAyiDcmIGnt2RmyndbtmVuFsMVH5x\nsTgQiwyj+hXJAbUzx3XH3Y1zNZFx081tSnQ0YAEDAWh4RPVuxzN9lF/xPbUDVdtd\nsqV4RhObU8wfUdtIU+Di0FbvoVddA4GoMv1GkHL6JGrubOHnfd5kstECgYEAwbA5\nmZm+0sA6tya/uzYDCX5NVqTBgVyZknaOq9/Xe2+kviMnKOrZoQsrilgP8MoSnODE\ny3mpGlnK0A1U3TPMeSPfV0O8I50e8AU8umrdsYju3Hpiqvb7dW+83G3ep9uDzEb2\nrPv2e57+exNAFYIuWj62bR2T8no7fiHQNM82jfsCgYEAzSzE1qif4hogZoKZ4ItV\nZHgxUrK1/xIH7uXL4NIa2AfSSZLxRZYaT/e2766hNFBSvXBE4+Zv/VwArppqYiNX\nw/jHmUIyhzygiD5aC5PvVXyF8+PuVmGuCayjMkA1HfLr7CvQyzMlp/4MhfcvILsO\n8OQrMeLJnw+NX6fDgo1LZJECgYEAvZtiB7e2UmHUGM9aCk7JklWOKC+JLrYTsIlX\nCXJLY47bWzbWcvvUqA5jRT8H+9QVfHWcsQQcQqt8G0exuAmpNT2kuayZVNPPIXA/\nDs7mz5EZI8S7Klo1t7T20WLNAM2nrCYb/SN7G3F99cXWijeyYK3br92wo0J9UvCO\n/eOLqFkCgYEAvhkFM5uaeYoWLLFNtEBc2UFoSYIlqf88bNwH1+kX3F6NhTkWhg5k\nrnEliwwa2uoZCBN9+bV8TF4DMKUmMdSA1Z1chWsEAU5R9UOaS/RYywGTUAiRhMrn\nDx5HBi5/pA34GFX3KdbS6L3oPtfbQ/4kgUJVkNKbeLv/I7694C18K6I=\n-----END RSA PRIVATE KEY-----\n",
+    "deploy_path": "/srv/quoter",
+    "deploy_owner": "www-data",
+    "deploy_group": "www-data"
+  },
+  "environments": {
+    "production": {
+      "deploy_revision": "master",
+      "rails_env": "production"
+    }
+  }
+}
